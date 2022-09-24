@@ -1,8 +1,15 @@
 .status-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    z-index: 100;
+    background-color: antiquewhite;
+
 }
+
 
 .status-bar:first-child span {
     margin-right: 5px;
