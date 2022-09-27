@@ -1,5 +1,8 @@
 .user-component {
+    display: flex;
     justify-content: space-between;
+
+
 }
 
 .user-component,
@@ -19,6 +22,7 @@
 .user-component__title {
     font-weight: 600;
     font-size: 22px;
+
 }
 
 .user-component__subtitle {
@@ -54,4 +58,8 @@
 .user-component__column--time {
     display: block;
     margin-bottom: 5px;
+}
+
+.user-component__column {
+    margin: 10px 0px;
 }
