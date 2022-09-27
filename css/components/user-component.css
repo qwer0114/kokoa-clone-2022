@@ -44,5 +44,14 @@
 
 
 .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5);
+    margin-top: -10px;
+    color: var(--opaque-color);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.user-component__column--time {
+    display: block;
+    margin-bottom: 5px;
 }

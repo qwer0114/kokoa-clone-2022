@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -21,7 +21,7 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
@@ -29,11 +29,7 @@
         </div>
     </header>
 
-    <main class="main-screen">
-        <a id="friends-display-link"href="">
-            <i class="fas fa-info-circle"></i>Friends' Names Display
-            <i class="fas fa-chevron-right fa-xs"></i>
-        </a>
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                <img 
@@ -41,33 +37,38 @@
                class="user-component__avatar user-component__avatar--xl">
                <div class = "user-component__text">
                     <h4 class="user-component__title">Nicolas</h4>
-                    <!--<h6 class="user-component__subtitle">this text is for the test</h6>--> 
+                    <h6 class="user-component__subtitle">+1 787-493-123</h6>
                </div>
             </div>
-            <div class="user-component__column"></div>
+            <div class="user-component__column"><i class="far fa-clipboard fa-2x"></i></div>
         </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
+        <div class="icon-row">
+            <div class="icon-row_icon">
+                <i class="far fa-calendar-check"></i>
+              <span>Calendar</span>
+          </div>
+            <div class="icon-row_icon">
+                <i class="fas fa-toolbox"></i>
+              <span>Talk Drive</span>
+          </div>
+            <div class="icon-row_icon">
+                <i class="fas fa-surprise"></i>
+              <span>Emoticons</span>
+          </div>
+            <div class="icon-row_icon">
+                <i class="fas fa-brush"></i>
+              <span>Themes</span>
+          </div>
+         </div>
+         <div class="more-suggestion">
+            <h4 class="more-suggestion__title">Suggestions</h4>
+            <div class="more-suggestion__icons">
+                <div class="more-suggestion__icon">
+                    <div class="more-suggestion__icon-image"><i class="fas fa-quote-right"></i></div>
+                    <span class="more-suggestion__icon-text">Kakao Story</span>
+                </div>
             </div>
-        </div>
-        <div class="user-component">
-            <div class="user-component__column">
-               <img 
-               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh30vvbubMslMquWBMGAwYq0V0rjSLIe-hmA&usqp=CAU" 
-               class="user-component__avatar user-component__avatar--sm">
-               <div class = "user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-               </div>
-            </div>
-            <div class="user-component__column">
-                <div>
-                <span>2</span>
-                <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
-            </div>
-        </div>
+         </div>
     </main>
     <nav class="nav">
         <ul class = "nav__list">
