@@ -19,12 +19,13 @@
 @import "screens/chats.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/findpassword.css";
 
 body {
     background-color: rgb(241, 237, 237);
     color: #2e363e;
     font-family: 'Open Sans', sans-serif;
-    height: 100vh;
+    height: 300vh;
 }
 
 .main-screen {
