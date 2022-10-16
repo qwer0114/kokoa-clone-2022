@@ -6,7 +6,7 @@
 
 .recommend-friends_title {
     margin-top: 20px;
-    color: var(--opaque-color);
+    color: white;
 }
 
 .recommend-friends span {
@@ -14,7 +14,7 @@
     margin-top: 130px;
     text-align: center;
     font-size: 20px;
-    color: var(--opaque-color);
+    color: white;
 
 }
 

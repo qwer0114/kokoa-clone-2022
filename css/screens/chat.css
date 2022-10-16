@@ -20,12 +20,13 @@
 
 
 #chat-screen {
-    background-color: #abc1d1;
+    background-image: url('/img/wait.jpg');
 }
 
 
 #chat-screen .alt-header {
-    background-color: #abc1d1;
+    background-color: skyblue;
+    color: white;
     z-index: 1;
 }
 
@@ -46,6 +47,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 40px;
+    color: white;
 }
 
 .message-row img {
@@ -63,7 +65,7 @@
 }
 
 .message__bubble {
-    background-color: white;
+    border: 1px solid white;
     padding: 13px;
     border-radius: 15px;
     border-top-left-radius: 0px;
@@ -82,7 +84,6 @@
 }
 
 .my-message-row .message__bubble {
-    background-color: yellow;
     border-radius: 15px;
     border-top-right-radius: 0px;
     margin-left: 5px;
@@ -93,7 +94,7 @@
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
-    background-color: white;
+    background-color: skyblue;
     display: flex;
     justify-content: space-between;
     padding: 5px 25px;
@@ -102,6 +103,7 @@
 
 .reply .reply__column:first-child {
     width: 10%;
+    color: white;
 }
 
 .reply__column:last-child {
@@ -113,7 +115,7 @@
     padding-left: 10px;
     height: 40px;
     width: 100%;
-    border: var(--main-border);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     transition: all .3s ease-in-out;
 }
@@ -131,10 +133,11 @@
     width: 30px;
     height: 30px;
     font-size: 25px;
+    color: black;
 }
 
 .reply__column:last-child button {
-    background-color: var(--yellow);
+    background-color: skyblue;
     border: none;
     width: 30px;
     height: 30px;
@@ -147,11 +150,12 @@
 }
 
 .reply__column i {
-    opacity: 0.5;
+    color: white;
 }
 
 .reply__column button i {
     opacity: 1;
+    color: white;
 }
 
 .reply .reply__column:first-child,

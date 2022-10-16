@@ -13,6 +13,7 @@
 }
 
 .more-suggestion__icons {
+    color: black;
     display: flex;
 }
 
@@ -33,6 +34,6 @@
 }
 
 .more-suggestion__icon-text {
-    color: var(--opaque-color);
+    color: white;
     font-size: 12px;
 }

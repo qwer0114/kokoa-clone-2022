@@ -1,17 +1,18 @@
 #friends-display-link {
     display: block;
     text-align: center;
-    background-color: #e2dfdf;
+    background-color: #87ceeb;
     width: 100%;
     padding: 15px 0px;
     font-size: 15px;
     margin-bottom: 30px;
+    border-radius: 20px;
 
 }
 
 #friends-display-link i {
     padding-right: 6px;
-    color: rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
 .friends-screen {
@@ -29,5 +30,5 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    color: var(--opaque-color);
+    color: white;
 }
