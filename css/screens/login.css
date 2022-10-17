@@ -44,11 +44,18 @@
     border-color: skyblue;
 }
 
+
 #login-form input[type="submit"] {
     color: white;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: skyblue;
 
 }
+
 
 #login-form a {
     text-align: center;
