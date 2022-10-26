@@ -26,3 +26,11 @@
 .settings-screen {
     padding-top: 0px;
 }
+
+.settings__setting input {
+    visibility: hidden;
+}
+
+#logOut {
+    display: flex;
+}
