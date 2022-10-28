@@ -1,25 +1,35 @@
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#username");
-const userProfile = document.querySelector(".user-component__title");
+const password = document.querySelector("#password");
+const requiredName = document.querySelector(".Name-required");
+const requiredPW = document.querySelector(".PW_required");
 
 const USERNAME_KEY = "username";
-const profileName = localStorage.getItem(USERNAME_KEY);
+const HIDE = "hide";
 
-
-if (localStorage.getItem(USERNAME_KEY) == null) {
-    loginForm.addEventListener('submit', saveUserName);
-
-} else {
-    paintUserName(profileName);
-}
-
-
-function paintUserName(profileName) {
-    userProfile.innerText = profileName;
-}
+loginForm.addEventListener('submit', requiredPassword);
+loginForm.addEventListener('submit', requiredUserName);
+loginForm.addEventListener('submit', saveUserName);
 
 function saveUserName() {
     const userName = loginInput.value;
     localStorage.setItem(USERNAME_KEY, userName);
+}
 
+function requiredUserName(event) {
+    if (loginInput.value == "") {
+        requiredName.innerText = "Please Write your name";
+        event.preventDefault();
+    } else {
+        requiredName.innerText = "";
+    }
+}
+
+function requiredPassword(event) {
+    if (password.value == "") {
+        requiredPW.innerText = "Please Write your password";
+        event.preventDefault();
+    } else {
+        requiredPW.innerText = "";
+    }
 }

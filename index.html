@@ -13,7 +13,7 @@
             <i class="fas fa-wifi" ></i>
               <!--To Do: Wifi icon-->
         </div>
-        <div class = "status-bar_column"><span>18:43</span>
+        <div class = "status-bar_column"><span id="timeBar">00:00</span>
         </div>
         <div class = "status-bar_column"><span>110%</span>
             <i class="fas fa-battery-full"></i>
@@ -26,8 +26,10 @@
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Name" id="username" required>
-        <input name="password" type="password" placeholder="Password" required>
+        <input name="username" type="text" placeholder="Name" id="username">
+        <span class="Name-required"></span>
+        <input name="password" type="password" placeholder="Password" id="password">
+        <span class="PW_required"></span>
         <input type="submit" value="Log In">
         <input type="submit" value="Sign Up">
         <a href="findpassword.html">Find Kakao Account or Password</a>
@@ -50,5 +52,6 @@
     <script src="https://kit.fontawesome.com/6478f529f2.js"
      crossorigin="anonymous"></script>
      <script src="js/login.js"></script>
+     <script src="js/time.js"></script>
 </body>
 </html>

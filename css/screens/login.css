@@ -32,6 +32,10 @@
     border-radius: 15px;
 }
 
+#login-form span {
+    padding-bottom: 30px;
+}
+
 #login-form input:not([type="submit"]) {
     transition: border-color 0.3s ease-in-out;
 }
@@ -62,6 +66,10 @@
     color: white;
     text-decoration: none;
     font-size: 14px;
+}
+
+.hide {
+    display: none;
 }
 
 @keyframes hideSplashScreen {
